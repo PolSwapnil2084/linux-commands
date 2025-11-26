@@ -1,0 +1,52 @@
+=================== Linux Commands Cheat Sheet ===================
+
+--- File & Directory Operations ---
+ls                  # List files and folders
+ls -l               # Detailed list with permissions
+ls -a               # Show hidden files
+cd /path/to/dir     # Change directory
+pwd                 # Show current directory
+mkdir dir           # Create directory
+rmdir dir           # Remove empty directory
+rm -r dir           # Remove directory and contents
+cp source dest      # Copy file
+cp -r source_dir dest_dir  # Copy directory recursively
+mv source dest      # Move/rename file or directory
+touch file          # Create empty file
+cat file            # View file contents
+head file           # View first 10 lines
+tail file           # View last 10 lines
+
+--- Permissions ---
+chmod 755 file      # Change file permissions
+chown user:group file  # Change owner and group
+
+--- Process & System ---
+ps aux              # Show running processes
+top                 # Interactive process viewer
+kill PID            # Kill a process
+df -h               # Disk space usage
+du -sh dir          # Directory size
+free -h             # RAM usage
+uptime              # System uptime
+
+--- Networking ---
+ping host           # Check connectivity
+ifconfig / ip addr  # Network interfaces
+netstat -tuln       # Listening ports
+curl URL            # Fetch webpage
+
+--- Package Management ---
+apt update          # Update package list (Debian/Ubuntu)
+apt install pkg     # Install package
+yum install pkg     # Install package (CentOS/RHEL)
+
+--- Search & Find ---
+grep 'text' file    # Search text in file
+find /path -name 'file'  # Find file by name
+
+--- Tips ---
+cp -v               # Verbose copy
+cp -a               # Preserve attributes
+man command         # Show manual for command
+==================================================================
